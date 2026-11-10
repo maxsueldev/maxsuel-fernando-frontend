@@ -26,8 +26,6 @@ const technologies = [
 function TechStack() {
   const shouldReduceMotion = useReducedMotion();
 
-  const items = [...technologies, ...technologies];
-
   return (
     <section
       id="tecnologias"
