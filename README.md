@@ -1,75 +1,79 @@
-# React + TypeScript + Vite
+# Portfólio — Maxsuel Fernando
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal desenvolvido para apresentar minha trajetória, habilidades e projetos na área de Desenvolvimento Front-End.
 
-Currently, two official plugins are available:
+O projeto reúne informações sobre minha experiência, formação, tecnologias que utilizo e projetos desenvolvidos durante meus estudos e evolução profissional.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias utilizadas
 
-## React Compiler
+- React
+- TypeScript
+- Tailwind CSS
+- JavaScript
+- Motion (animações)
+- React Icons
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- **Apresentação pessoal:** introdução e posicionamento profissional como Desenvolvedor Front-End.
+- **Stack tecnológica:** apresentação das principais tecnologias e ferramentas por meio de ícones com animação horizontal contínua.
+- **Projetos:** exposição de projetos pessoais, com links para repositórios e demonstrações.
+- **Trajetória profissional:** apresentação de experiências, habilidades técnicas, formação acadêmica e cursos relevantes.
+- **Contato:** acesso aos meus principais canais de comunicação e perfis profissionais.
+- **Layout responsivo:** adaptação da interface para diferentes tamanhos de tela.
+- **Acessibilidade:** atenção à navegação por teclado, estados de foco e preferência por movimento reduzido.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🖥️ Executando o projeto localmente
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Pré-requisitos
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Node.js
+- npm
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Instalação
 
+Clone o repositório:
+
+```bash
+git clone https://github.com/maxsueldev/maxsuel-fernando-frontend.git
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Acesse a pasta do projeto:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+cd maxsuel-fernando-frontend
 ```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+O Vite disponibilizará um endereço local para acessar o projeto pelo navegador.
+
+## 📁 Estrutura do projeto
+
+A aplicação está organizada em componentes React, mantendo a separação das seções da página e facilitando a manutenção e evolução do código.
+
+## 👨‍💻 Autor
+
+**Maxsuel Fernando**
+
+Desenvolvedor Front-End Júnior, com foco na criação de interfaces modernas, responsivas e bem estruturadas utilizando React, TypeScript e Tailwind CSS.
+
+- [GitHub](https://github.com/maxsueldev)
+- [LinkedIn](https://linkedin.com/in/maxsuelfernandob)
+
+---
+
+[Link do portfólio](https://maxsuel-fernando-portfolio.vercel.app)
+
+Desenvolvido com React, TypeScript e dedicação à evolução contínua em Desenvolvimento Front-End.
