@@ -29,7 +29,7 @@ function Hero() {
               duration: 0.7,
               delay: shouldReduceMotion ? 0 : 0.15,
             }}
-            className="mt-8 whitespace-nowrap font-display text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl xl:text-6xl"
+            className="mt-12 whitespace-nowrap font-display text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl xl:text-6xl"
           >
             Maxsuel Fernando
           </motion.h1>
@@ -41,7 +41,7 @@ function Hero() {
               duration: 0.7,
               delay: shouldReduceMotion ? 0 : 0.25,
             }}
-            className="mt-4 text-xl font-medium leading-tight text-accent sm:text-2xl"
+            className="mt-1 text-xl font-medium leading-tight text-accent sm:text-2xl"
           >
             Desenvolvedor Front-End
           </motion.p>
@@ -116,9 +116,9 @@ function Hero() {
           className="flex min-w-0 items-center justify-center"
         >
           <img
-            src="/images/photo.jpeg"
-            alt="Foto de perfil profissional de Maxsuel Fernando"
-            className="h-auto w-full max-w-[320px] object-contain border-3 border-accent rounded-sm"
+            src="/images/laptop_preview.png"
+            alt="Imagem em linhas de um laptop e uma caneca"
+            className="h-auto w-full max-w-[500px] object-contain rounded-sm"
             fetchPriority="high"
           />
         </motion.div>
